@@ -1,0 +1,454 @@
+/*BODY*/
+body{
+		background-color: #FBF6DA;
+		min-width: 900px;
+		margin:auto; 
+		width:1050px;
+}
+
+/*HEADER*/
+header{
+	padding-top: 50px;
+	background-color: #FC8833;
+	margin:auto; 
+	width:1050px;
+}
+
+#searchDiv{
+	display: inline-flex;
+	background-color: #FC8833;
+    margin-top: 2%;
+    margin-bottom: 2%;    
+	height: 50px;
+}
+
+#maincontainer {   
+margin:auto; 
+width:1050px;
+height:100%;
+display: flex;
+justify-content: space-between;
+}
+
+#headercontainer { 
+margin:auto; 
+width:100%;
+height:100%;
+display: flex;
+justify-content: space-between;
+}
+	
+#navegacion{
+	width: 70%;
+	margin-left: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#navegacion li {
+	width: 150px;
+	text-align: right;
+	vertical-align: center;
+	height: 50px;
+	background-color: #FDBF91;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-right: solid #5B5B5B 1px;
+
+
+}
+
+#navegacion li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+#noticiasLi{
+	flex-grow: 1;
+	text-align: right;
+}
+	#logo{
+		position:absolute;
+		left:17em;
+		top:1em;
+		}
+		input{
+			border:none;
+			border-radius:0.3em;
+			box-shadow:none;
+			float:left;
+			font-size:1em;
+			}
+			input.caja-texto{
+				background:antiquewhite;
+				border-bottom-right-radius:0;
+				border-top-right-radius:0;
+				color:#545454;
+				font-style:italic;
+				padding:0.5em 1em;
+				width:12.35em;
+				}
+				input.boton{
+					background:#cccccc url("../img/lupa.png") no-repeat center center;
+					border-bottom-left-radius:0;
+					border-top-left-radius:0;
+					color:#545454;
+					padding:0.5em 0;
+					width:35px;
+					}
+section{
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.formulario H2,
+.formulario H3{
+	color:#000000;
+	font-size:1.7em;
+	font-weight:bold;
+	}
+.formulario H2{
+	font-size:1.9em;
+	margin:2.5em auto 0 auto;
+	text-align:left;
+	width:623px;
+	}
+.formulario H3{
+	font-size:1.4em;
+	margin:0 0 1em 0;
+	text-align:center;
+	}
+.formulario section{
+	float:left;
+	margin:3em 0;
+	width:100%;
+	}
+	.formulario section form{
+		margin:1.3em auto;
+		padding:0 3em;
+		width:716px;
+		}
+		.formulario section form DIV{
+			float:left;
+			margin:0 0 1em 0;
+			width:100%;
+			}
+		.formulario section form DIV.aficiones,
+		.formulario section form DIV.comentarios{
+			border-top:2px solid orange;
+			padding:2.5em 0 0 0;
+			}
+		.formulario section form DIV.aficiones .left,
+		.formulario section form DIV.aficiones .right{
+			float:left;
+			margin:0 1.5em 0 0;
+			width:48%;
+			}
+		.formulario section form DIV.aficiones .right{
+			margin:0;
+			}
+			.formulario section form DIV DIV{
+				float:left;
+				margin:0 0 0.3em 0;
+				width:100%;
+				}
+				.formulario section form DIV DIV LABEL,
+				.formulario section form DIV.comentarios LABEL{
+					float:left;
+					font-size:1.1em;
+					margin:0.4em 0.8em 0.4em 0;
+					min-width:4.5em;
+					text-align:right;
+					width:auto;
+					}
+				.formulario section form DIV DIV INPUT,
+				.formulario section form DIV.aficiones .left SELECT,
+				.formulario section form DIV.aficiones .right SELECT,
+				.formulario section form DIV.comentarios TEXTAREA{
+					border:3px solid orange;
+					border-radius:0.3em;
+					float:left;
+					padding:0.35em 1em;
+					width:84%;
+					}
+			.formulario section form DIV DIV.telefono,
+			.formulario section form DIV DIV.email{
+				width:50%;
+				}
+				.formulario section form DIV DIV.telefono INPUT,
+				.formulario section form DIV DIV.email INPUT{
+					width:68%;
+					}			
+			.formulario section form DIV.aficiones .left P,
+			.formulario section form DIV.aficiones .right P{
+				font-size:1.1em;
+				margin:0 0 0.5em 0;
+				}
+			.formulario section form DIV.aficiones .left DIV,
+			.formulario section form DIV.aficiones .right DIV{
+				margin:0 0 0.5em 0;
+				}
+				.formulario section form DIV.aficiones .left LABEL,
+				.formulario section form DIV.aficiones .right LABEL{
+					margin:0 0.8em 0 0;
+					text-align:left;
+					}
+				.formulario section form DIV.aficiones .left INPUT,
+				.formulario section form DIV.aficiones .right INPUT{
+					float:left;
+					width:auto;
+					}
+			.formulario section form DIV.aficiones .left .select,
+			.formulario section form DIV.aficiones .right .select{
+				margin:1em 0 0 0;
+				}
+				.formulario section form DIV.aficiones .left SELECT,
+				.formulario section form DIV.aficiones .right SELECT{
+					width:63%;
+					}
+			.formulario section form DIV.comentarios TEXTAREA{
+				font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+				font-size:1em;
+				width:100%;
+				}
+			.formulario section form DIV.comentarios LABEL{
+				margin: 0.4em 0 0.4em 0;
+				text-align: left;
+				width:100%;
+				}
+		.formulario section form .boton{
+			float:left;
+			margin:1em 0;
+			width:100%;
+			}
+			.formulario section form .boton BUTTON{
+				color:#ffffff;
+				background:orange;
+				border:none;
+				border-radius:0.3em;
+				display:block;
+				font-size:1.1em;
+				margin:0 auto;
+				padding:0.5em 1em;
+				width:13em;
+				}				
+				.formulario section form .boton BUTTON:hover{
+					background:#FF8F21;
+					}
+aside{
+    float: right;
+    width: 30%;
+}
+.img_float{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 150%;
+}
+
+.boton_nav {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: bisque;
+    position: relative;
+    bottom:0px;
+    right:0px;
+  }
+
+  .caja {
+    border: 3px solid orange;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+  }
+
+  .titulo_caja {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: orange;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 10px;
+    }
+	
+.right{
+	text-align: right;
+
+}
+	
+footer{
+	background: #6A6B67;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;	
+}
+
+footer a{
+	color: #fff;
+}
+				footer .right .media .facebook A{
+					background:transparent url("../img/facebOn.png") no-repeat left top;
+					}
+					footer .right .media .facebook A:hover{					
+						background:transparent url("img/facebOn.png") no-repeat left bottom;
+						}
+				footer .right .media .twitter A{
+					background:transparent url("../img/twitter.jpg") no-repeat left top;
+					}
+					footer .right .media .twitter A:hover{					
+						background:transparent url("../img/twitter.jpg") no-repeat left bottom;
+						}
+				footer .right .media .pinterest A{
+					background:transparent url("../img/pinterest.jpg") no-repeat left top;
+					}
+					footer .right .media .pinterest A:hover{					
+						background:transparent url("../img/pinterest.jpg") no-repeat left bottom;
+						}
+				footer .right .media .google-plus A{
+					background:transparent url("../img/google-plus.jpg") no-repeat left top;
+					}
+					footer .right .media .google-plus A:hover{					
+					background:transparent url("../img/google-plus.jpg") no-repeat left bottom;}
+						
+						
+#maincontainer {   
+margin:auto; 
+width:1050px;
+height:100%;
+display: flex;
+justify-content: space-between;
+}
+
+#headercontainer { 
+margin:auto; 
+width:100%;
+height:100%;
+display: flex;
+justify-content: space-between;
+}
+
+
+#logo{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#logo{
+		position:absolute;
+		left:17em;
+		top:1em;
+		}
+
+
+nav{
+	vertical-align: baseline;
+	float: right;
+	margin-left: 42.9%;
+
+}
+
+nav form {
+	text-align: right;
+}
+
+h1 { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+h2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+#resumen{
+	font-size: 20pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p{
+	padding: 10px;
+}
+
+.flexybox {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+
+/*search field */
+.buscador{
+	text-align: right;	
+	background-color: #FBF6DA;
+	margin-right: 10px;
+}
+
+input{
+	background-color: #FBF6DA;
+	width: 50 em;	
+}
+
+#navegacion{
+	width: 70%;
+	margin-left: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#navegacion li {
+	width: 150px;
+	text-align: right;
+	vertical-align: center;
+	height: 50px;
+	background-color: #FDBF91;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-right: solid #5B5B5B 1px;
+
+
+}
+
+#navegacion li a{
+	color: #fff;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+#noticiasLi{
+	flex-grow: 1;
+	text-align: right;
+}
